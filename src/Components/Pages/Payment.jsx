@@ -83,14 +83,14 @@ console.log(transaction_uuid)
           type="hidden"
           id="success_url"
           name="success_url"
-          value="https://nepalmomohouse.vercel.app/success"
+          value="https://Lunasaka.vercel.app/success"
           required
         />
         <input
           type="hidden"
           id="failure_url"
           name="failure_url"
-          value="https://nepalmomohouse.vercel.app/failure"
+          value="https://Lunasaka.vercel.app/failure"
           required
         />
         <input
