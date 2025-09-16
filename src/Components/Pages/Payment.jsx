@@ -23,6 +23,7 @@ console.log(transaction_uuid)
   //this is for genarating signature............
   var hash = CryptoJS.HmacSHA256(Message, "8gBm/:&EnhH.1/q");
   var hashInBase64 = CryptoJS.enc.Base64.stringify(hash);
+  console.log(hashInBase64)
 
 
 
@@ -83,14 +84,14 @@ console.log(transaction_uuid)
           type="hidden"
           id="success_url"
           name="success_url"
-          value="https://Lunasaka.vercel.app/success"
+          value="http://localhost:5173/success"
           required
         />
         <input
           type="hidden"
           id="failure_url"
           name="failure_url"
-          value="https://Lunasaka.vercel.app/failure"
+          value="http://localhost:5173/failure"
           required
         />
         <input
